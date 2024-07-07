@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Teko', sans-serif;
+    background-color: #222425;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 0 20px;
+  }
+  /* header and nav */
+
+  .class-header {
+
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg,
+    #FFE53B 0%, #FF2525 74%);
+    padding: 30px;
+  }
+
+  h1 {
+    text-align: center;
+    text-decoration:underline;
+    color: #fcf806;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  h1:hover {
+    color: #0e0d0c;
+  }
+  
+  ul {
+    box-sizing: border-box;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    justify-content:space-around;
+    padding: 20px;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg,
+     #21D4FD 0%, #B721FF 100%);
+     font-size: x-large;
+     font-weight: 400;
+     flex-direction: row;
+    }
+
+  a.link {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  a.link:hover {
+    color: rgb(0, 0, 0);
+  } 
+  
+  /* box */
+  
+  .box {
+    background-color: #f7f1f1;
+    margin: 20px 0;
+    padding: 20px 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(255, 255, 255);
+  }
+  
+  .box h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  font-weight: 550;
+  }
+  
+  .box p {
+    font-size: 25px;
+    font-weight: 500;
+    color: #070606;
+    margin-bottom: 30px;
+  }
+  
+  /* Heading Colors */
+  .card-sporty h2 {
+    color: #e04553;
+  }
+  
+  .card-casual h2 {
+    color: #0d4ba3;
+  }
+  
+  .card-formal h2 {
+    color: #512b22;
+  }
+  
+  .box a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #181616;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .box a:hover {
+    opacity: 0.9;
+  }
+  
+  /* Link Colors */
+  .card-sporty a {
+    background-color: #e04553;
+  }
+  
+  .card-casual a {
+    background-color: #0d4ba3;
+  }
+  
+  .card-formal a {
+    background-color: #512b22;
+  }
+  
+  /* Background Images */
+  .card-sporty {
+    background: #fff url('./images/sporty.png') 
+    no-repeat center right/200px;
+  }
+  .card-casual {
+    background: #fff url('./images/casual.png') 
+    no-repeat center right/200px;
+  }
+  .card-formal {
+    background: #fff url('./images/formal.png') 
+    no-repeat center right/200px;
+  }
+  
